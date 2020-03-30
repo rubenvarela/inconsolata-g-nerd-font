@@ -3,6 +3,9 @@
 curl -L https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/font-patcher -o font-patcher
 chmod u+x ./font-patcher
 
+## Install dependencies
+sudo apt install python3-fontforge
+
 ## I use git mainly. Installing git-svn then
 sudo apt install git-svn
 mkdir -p src/glyphs
